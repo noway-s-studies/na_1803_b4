@@ -1,0 +1,13 @@
+h1 {
+    margin: 10px auto;
+    text-align: center;
+}
+.container {
+    height: 150px;
+    margin-top: 50px;
+}
+.container-fluid {
+    height: 150px;
+    background-color: red;
+    margin-top: 50px;
+}
