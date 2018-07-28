@@ -1,0 +1,49 @@
+h1 {
+    margin: 20px auto;
+    text-align: center;
+    background-color: darkslategray;
+    padding: 10px;
+    margin: 20px;
+    color: azure;
+}
+.container {
+    margin-top: 20px;
+}
+.container-fluid {
+    margin-top: 20px;
+}
+
+@media (max-width: 600px){
+    .container {
+        background-color: red;
+    }
+}
+@media (min-width: 800px){
+    .container {
+        background-color: blue;
+    }
+}
+@media (min-width: 600px) and (max-width: 800px){
+    .container-fluid {
+        background-color: green;
+    }
+}
+.col{
+    min-width: 100px;
+}
+.col-a{
+    background-color: beige;
+}
+.col-b{
+    background-color: blanchedalmond;
+}
+.col-c{
+    background-color: darkslategray;
+}
+.row{
+    height: 70px;
+    background-color: darkorange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
