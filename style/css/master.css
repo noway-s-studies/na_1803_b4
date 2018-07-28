@@ -3,12 +3,10 @@ h1 {
     text-align: center;
 }
 .container {
-    height: 50px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .container-fluid {
-    height: 50px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 @media (max-width: 600px){
@@ -27,9 +25,7 @@ h1 {
     }
 }
 .col{
-    height: 30px;
     min-width: 100px;
-    max-width: 100%;
 }
 .col-a{
     background-color: beige;
@@ -41,6 +37,7 @@ h1 {
     background-color: darkslategray;
 }
 .row{
+    height: 70px;
     background-color: darkorange;
     margin-top: 10px;
     margin-bottom: 10px;
