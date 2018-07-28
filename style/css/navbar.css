@@ -25,9 +25,13 @@ a.btn-green{
 a.btn-green:hover{
     color: purple;
 }
-nav.tatu-nav{
+nav.tatu-nav,
+.dropdown-menu{
     background-color: darkkhaki;
 }
-ul.tatu-font a{
-    font-size: 1.3rem;
+.dropdown-item:hover{
+    background-color: darkgreen;
+}
+nav.tatu-font a{
+    font-size: 1.8rem;
 }
